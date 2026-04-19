@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --gs-forest: #1b4332;
+  --gs-moss: #2d6a4f;
+  --gs-sage: #74c69d;
+  --gs-mist: #d8f3dc;
+  --gs-bark: #5c4d3c;
+  --gs-sand: #f4f1ea;
+}
+
+body {
+  @apply min-h-screen antialiased text-stone-800 bg-gradient-to-br from-stone-50 via-emerald-50/50 to-teal-50/60;
+}
