@@ -92,6 +92,7 @@ export async function POST(req: Request) {
       impact_score: parsed.impact_score,
       insight: parsed.insight,
       challenge: parsed.challenge,
+      recommendation: parsed.recommendation,
       total_saved: parsed.total_saved,
     };
     const echoNote =

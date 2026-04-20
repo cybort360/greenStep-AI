@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="leafGrad" x1="0" y1="1" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#1a6b35"/>
+      <stop offset="50%"  stop-color="#2d9150"/>
+      <stop offset="100%" stop-color="#5de86a"/>
+    </linearGradient>
+  </defs>
+  <!-- Leaf body -->
+  <path
+    d="M58 158 C22 136 12 88 36 50 C56 20 100 8 138 26 C170 44 180 90 160 128 C140 164 88 176 58 158 Z"
+    fill="url(#leafGrad)"
+  />
+  <!-- White vein highlight -->
+  <path
+    d="M68 150 C82 124 100 96 136 56"
+    stroke="white"
+    stroke-width="11"
+    stroke-linecap="round"
+    opacity="0.88"
+  />
+  <!-- Stem curl -->
+  <path
+    d="M59 157 C51 168 47 180 50 192"
+    stroke="#166534"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+</svg>
